@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    color: steelblue;
+    background-color: steelblue;
 }
 
 nav a {
@@ -86,4 +86,3 @@ footer {
 
 
 
-}
