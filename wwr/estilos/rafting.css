@@ -120,6 +120,10 @@ footer p {
   color: var(--cor-destaque2);
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .redes-sociais {
   display: flex;
   justify-content: center;
