@@ -109,7 +109,7 @@ h1 {
 
 /* Footer */
 footer {
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-secundaria);
   color: var(--cor-destaque2);
   text-align: center;
   padding: 16px;
@@ -126,7 +126,7 @@ footer p {
   gap: 15px;
 }
 
-.socialmedia a {
+.redes-sociais a {
   text-decoration: none;
 }
 
