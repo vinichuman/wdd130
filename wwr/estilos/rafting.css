@@ -120,20 +120,17 @@ footer p {
   color: var(--cor-destaque2);
 }
 
-footer a {
-    text-decoration: none;
-}
-
 .redes-sociais {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
 
-.redes-sociais a {
-  text-decoration: none;
+.redes-sociais a,
+footer a {
+     text-decoration: none;
 }
-
+ 
 .redes-sociais img {
   width: 30px;
   height: 30px;
