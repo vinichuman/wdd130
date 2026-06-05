@@ -66,6 +66,10 @@ h1, h2 {
   text-align: center;
 }
 
+h1 {
+  position: absolute;
+}
+
 /* Sections e parágrafos */
 section, article {
   margin: 16px;
