@@ -233,3 +233,7 @@ footer a {
 .formulario button:hover {
   background-color: var(--cor-destaque1);
 }
+
+iframe {
+  width: 100%;
+}
