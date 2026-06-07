@@ -74,22 +74,19 @@
 
                     <fieldset>
                         <legend>Finalidade da Mensagem:</legend>
-                        <label>
-                            <input type="radio" name="finalidade" value="geral" required> Consulta Geral
+                        <label for="geral">
+                            <input type="radio" id="geral" name="finalidade" value="geral" required> Consulta Geral
                         </label>
-                        <label>
-                            <input type="radio" name="finalidade" value="reserva"> Pergunta sobre Reserva
+                        <label for="reserva">
+                            <input type="radio" id="reserva" name="finalidade" value="reserva"> Pergunta sobre Reserva
                         </label>
-                        <label>
-                            <input type="radio" name="finalidade" value="sugestao"> Sugestão de Site
+                        <label for="sugestao">
+                            <input type="radio" id="sugestao" name="finalidade" value="sugestao"> Sugestão de Site
                         </label>
                     </fieldset>
 
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-                    <label>
-                        <input type="checkbox" name="newsletter"> Quero receber a newsletter mensal
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter"> Quero receber a newsletter mensal
                     </label>
 
                     <button type="submit">Enviar Mensagem</button>
@@ -103,7 +100,7 @@
 
     <footer>
         <p>&copy; 2026 WWR Rafting | Vinicius Chuman</p>
-        <nav class="socialmedia">
+        <nav class="redes-sociais">
             <a href="https://facebook.com">
                 <img src="imagens/facebook.svg" alt="Ícone do Facebook">
             </a>
