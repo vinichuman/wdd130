@@ -65,13 +65,13 @@
             <section class="formulario">
                 <h2>Envie sua Mensagem</h2>
                 <form action="#" method="get">
-
+                
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
-
+                
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" name="email" required>
-
+                
                     <fieldset>
                         <legend>Finalidade da Mensagem:</legend>
                         <label for="geral">
@@ -84,13 +84,16 @@
                             <input type="radio" id="sugestao" name="finalidade" value="sugestao"> Sugestão de Site
                         </label>
                     </fieldset>
-
+                
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
                     <label for="newsletter">
                         <input type="checkbox" id="newsletter" name="newsletter"> Quero receber a newsletter mensal
                     </label>
-
+                
                     <button type="submit">Enviar Mensagem</button>
-
+                
                 </form>
             </section>
 
